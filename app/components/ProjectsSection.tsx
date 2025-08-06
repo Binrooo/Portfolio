@@ -48,6 +48,20 @@ export default function ProjectsSection() {
 								</div>
 							</div>
 						</div>
+						<div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+							<div className="aspect-video bg-gray-700 relative">
+								<Image src={`/spupalumnisystem.jpg`} alt={`Project`} fill className="object-cover" />
+							</div>
+							<div className="p-4 sm:p-6">
+								<h3 className="text-base sm:text-lg font-semibold text-white mb-2">Barangay Complaint Manegement System of Brgy. Santa Maria, Buguey</h3>
+								<p className="text-sm sm:text-base text-gray-300 mb-4">The St. Paul University Philippines Alumni System is a web-based platform designed to manage and connect alumni. It allows graduates to register, update their profiles, and stay informed about university events and announcements. The system supports efficient data management and strengthens alumni engagement through a secure and organized interface.</p>
+								<div className="flex gap-2">
+									<a href="https://alumni.spup-ict.com/" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+										View Project →
+									</a>
+								</div>
+							</div>
+						</div>
 				</div>
 			</div>
 		</section>
